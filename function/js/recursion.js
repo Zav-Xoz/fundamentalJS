@@ -1,14 +1,12 @@
 // !!!!!   RECURSION
 
-
 // ФУНКЦИЯ ВЫЗЫВАЕТ САМА СЕБЯ
-// 1. БАЗОВОЕ УСЛОВИЕ (Терминальное ) выход
+// 1. БАЗОВОЕ УСЛОВИЕ (Терминальное ) условие выхода из Рекурсии
 // 2. Правило движения по рекурсии
 
 function factorial(n) {
-    if (n === 0) return 1;
-
-    return n * factorial(n - 1);
+    if (n === 0) return 1;          // 1.
+    return n * factorial(n - 1);    // 2. 
 }
 console.log(factorial(3));
 
@@ -24,7 +22,6 @@ function repeater(char) {
     return char + repeater(char);
 }
 console.log(repeater('X'));
-
 
 // --------------------------------------------
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
