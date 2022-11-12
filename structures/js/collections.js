@@ -28,15 +28,7 @@ const developers = [
         area: 'foolstack',
     },
 ];
-// ---------------------------------------------------------------------------
-// developers.forEach(elem => console.log(elem));
-// developers.forEach(elem => {
-//     for (let key in elem) {
-//         if (elem[key] === 'Ivan Ivanov') {
-//             console.log('Ivan Ivanov TRUE!!!');
-//         }
-//     }
-// });
+
 // --------------------------------------------------------------------------- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // const out = developers.find(item => item.area === 'foolstack');
 const out = developers.find(item => item.skills.includes('React'));
