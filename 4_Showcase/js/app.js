@@ -21,7 +21,7 @@ let order = [];
 const buttons = document.querySelectorAll('.choiceId');
 buttons.forEach(item => {
     item.addEventListener('click', () => {
-        addToBasket(Number(item.getAttribute('type'))); // !!!! NUMBER No String 
+        addToBasket(Number(item.getAttribute('data-id'))); // !!!! NUMBER No String 
     })
 })
 
