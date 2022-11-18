@@ -1,0 +1,16 @@
+header,
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(172, 117, 223);
+}
+
+.section_contacts {
+    background-color: navajowhite;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move To</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header id="top">
+        <ul>
+            <h2>MoveTo</h2>
+            <li><a href="https://hsnaydd.github.io/moveTo/demo/">MoveTo Demo </a></li>
+            <li><a href="https://github.com/hsnaydd/moveTo">GIT</a></li>
+            <li><a href="https://cdnjs.com/libraries/moveTo"> moveTo CDN</a></li>
+        </ul>
+        <div class="action">
+            <button data-target="#features" data-mt-duration="800">Our Features</button>
+            <button data-target="#contacts" data-mt-duration="1800">Contacts</button>
+            <button data-target="#map" type="button" class="js-trigger" data-mt-duration="1800">Go Map</button>
+        </div>
+    </header>
+    <section id="features">
+        <h2>Features</h2>
+        <button data-target="#map" type="button" class="js-trigger" data-mt-duration="1800">Go Map</button>
+    </section>
+    <section class="section_contacts" id="contacts">
+        <div>
+            <h2>Contacts</h2>
+            <button data-target="#map" type="button" class="js-trigger" data-mt-duration="1800">Go Map</button>
+        </div>
+    </section>
+    <section id="map">
+        <h2>SECTIPN MAP</h2>
+        <div>
+            <button data-target="#top" type="button" class="js-trigger" data-mt-duration="4800">Go Top</button>
+            <button data-target="#features" type="button" class="js-trigger" data-mt-duration="1800">Go Map</button>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js"
+        integrity="sha512-K8tGrJxPw5dbYRLSOdH+dZ9SVZwrtMffca3bBOe+IWAgl4SDi55bIR2IUnF+p+PzReEDeKgoIBHpuq7R9043GA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
