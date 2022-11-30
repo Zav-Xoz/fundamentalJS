@@ -138,7 +138,7 @@
 }
 
 .map {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 290px);
 }
 
 @media (min-width: 1024px) {
